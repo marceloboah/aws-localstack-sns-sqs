@@ -3,6 +3,11 @@ SNS Producer para um SQS Consumer onde o Tópico SNS tem uma subscrição para o
 
 O SNS está implementado o SQS ainda não.
 
+Para verificar se o Localstack está em pé:
+http://localhost:4566/health
+
+curl -v http://localhost:4566
+ 
 Primeiro configura credenciais depois de subir o Docker do Localstack
 aws --endpoint-url=http://localhost:4566 configure
 Devolve
